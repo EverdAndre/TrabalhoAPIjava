@@ -1,0 +1,47 @@
+{
+	"info": {
+		"_postman_id": "83c658c0-d18a-403d-b7ab-371226a62fd2",
+		"name": "Testes",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "47141083",
+		"_collection_link": "https://security-specialist-83315194-1595221.postman.co/workspace/Everd-A.-Loebens's-Workspace~70f719b2-a757-47c3-8e92-cdcae7d448e5/collection/47141083-83c658c0-d18a-403d-b7ab-371226a62fd2?action=share&source=collection_link&creator=47141083"
+	},
+	"item": [
+		{
+			"name": "atualizar produtos",
+			"request": {
+				"method": "PATCH",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"valor\": 30.00\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/pedido/2",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"pedido",
+						"2"
+					],
+					"query": [
+						{
+							"key": "",
+							"value": "",
+							"disabled": true
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
